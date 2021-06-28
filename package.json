@@ -1,0 +1,46 @@
+{
+  "name": "build-sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox to play with React build tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Argtum/react-build-sandbox.git"
+  },
+  "author": "Alex Silver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Argtum/react-build-sandbox/issues"
+  },
+  "homepage": "https://github.com/Argtum/react-build-sandbox#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-block-scoping": "^7.14.4",
+    "@babel/plugin-transform-classes": "^7.14.4",
+    "@babel/plugin-transform-template-literals": "^7.13.0",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^12.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "core-js": "^3.14.0",
+    "react-dom": "^17.0.2"
+  }
+}
